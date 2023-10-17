@@ -46,3 +46,7 @@ bumpversion = "^0.5.3"
 
 [tool.poetry.scripts]
 grapheneX = "graphenex.__main__:main"
+
+[publish]
+repository = "https://upload.pypi.org/legacy/"
+username = "__token__"
